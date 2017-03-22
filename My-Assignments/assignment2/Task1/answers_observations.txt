@@ -1,0 +1,22 @@
+Task-1 Answers:
+
+From Dataheet (Sky-Mote)
+Voltage		: 	3.6V
+I_TX		:	19.5 mA
+I_RX		:	21.8 mA
+I_CPU		:	1800 uA
+I_LPM		:	54.5 uA
+
+Farmulae: (No. of Ticks * V * I) / Ticks_Per_Sec
+Ticks_Per_Sec = CLOCK_SECOND = 128 ticks
+
+No. of ticks are shown in the simulation images. (in current directory)
+
+Channel Rate(HZ)	Transmit Energy(J)	Listen Energy(J)	CPU Energy(J)		LPM Energy(J)
+4 			2.35			0.529			0.756			0.236
+8			1.186			0.908			0.549			0.243
+16			0.603			1.914			0.513			0.306
+
+Comments: Listen energy increases with the increase in Channel Rate, while all other decreases.
+
+

@@ -1,0 +1,4 @@
+Trickle observations
+
+I am not seeing difference in changing the Trickle timer periods. Timer does not have the required resolution for given inputs. 
+There is only 128 ticks per second so I am not seeing how microsecond and below granularity is possible to simulate.

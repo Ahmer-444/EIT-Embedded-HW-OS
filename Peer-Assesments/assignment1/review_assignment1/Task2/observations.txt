@@ -1,0 +1,3 @@
+Multihop Example Observations:
+
+From the screenshoot it can be observed that Mot1 received the message from Mot8 after 24 hops.

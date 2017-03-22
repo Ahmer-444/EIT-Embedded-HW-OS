@@ -1,0 +1,1 @@
+define("bundles/quiz-question-types/utils/LatexAPIUtils",["require","exports","module","js/lib/api"],function(require,exports,module){"use strict";var e=require("js/lib/api"),t=e("/api/assess/v1/",{type:"rest"}),s={convert:function convert(e){return t.get("latex",{data:{userText:e}})}};module.exports=s});

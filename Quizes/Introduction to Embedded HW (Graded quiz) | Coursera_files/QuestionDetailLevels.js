@@ -1,0 +1,1 @@
+define("bundles/quiz-question-types/constants/QuestionDetailLevels",["require","exports","module","js/lib/keysToConstants"],function(require,exports,module){"use strict";var s=require("js/lib/keysToConstants"),e=s(["NoDetails","Partial","Full"]);module.exports=e});

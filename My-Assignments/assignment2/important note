@@ -1,0 +1,4 @@
+version compatibility Information:
+
+Task-1		: 	Contiki-3.x
+Task2-3		: 	Contiki-2.7   (because latest version have no support of some rdc drivers)

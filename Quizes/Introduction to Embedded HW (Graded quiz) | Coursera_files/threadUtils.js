@@ -1,0 +1,1 @@
+define("bundles/discussions/utils/threadUtils",["require","exports","module"],function(require,exports,module){"use strict";exports.formatCount=function(e){var t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:!1;if(e>1e3){if(t)return Math.round(e/1e3)+"k";return Math.round(e/1e3*10)/10+"k"}return e}});

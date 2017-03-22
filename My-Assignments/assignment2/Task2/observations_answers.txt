@@ -1,0 +1,22 @@
+Observation and Measurement
+
+From Dataheet (Sky-Mote)
+Voltage		: 	3.6V
+I_TX		:	19.5 mA
+I_RX		:	21.8 mA
+I_CPU		:	1800 uA
+I_LPM		:	54.5 uA
+
+Farmulae: (No. of Ticks * V * I) / Ticks_Per_Sec
+Ticks_Per_Sec = CLOCK_SECOND = 128 ticks
+
+No. of ticks are shown in the simulation images. (in current directory)
+
+Tasks	RDC			Transmit Energy(J)	Listen Energy(J)	CPU Energy(J)		LPM Energy(J)
+i	nullrdc 		0.012			64.876			0.39			0.314
+ii	xmac			0.478			6.410			0.614			0.303
+iii	lpp			0.642			14.425			0.813			0.312
+
+Answers: Nullrdc consumes highest energy while XMAC consumes least energy with configuration of 8Hz channel rate.
+
+

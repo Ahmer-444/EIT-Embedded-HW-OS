@@ -1,0 +1,1 @@
+define("bundles/groups/constants/GroupRoles",["require","exports","module","js/lib/keysToConstants"],function(require,exports,module){"use strict";var e=require("js/lib/keysToConstants");module.exports=e(["Member","GroupManager","DerivedGroupManager"])});

@@ -1,0 +1,4 @@
+Broadcast Example: Observation
+
+From the screenshoot 1 it can be observed when Button is clicked for Mot_2 the message is received at Mots 1 and 3.
+Similarly from screenshoot 2 it can be observed when Button is clicked for Mot_1 the message is received at Mots 2 and 3.

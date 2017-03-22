@@ -1,0 +1,26 @@
+Observations and calculations
+
+From Dataheet (Sky-Mote)
+Voltage		: 	3.6V
+I_TX		:	19.5 mA
+I_RX		:	21.8 mA
+I_CPU		:	1800 uA
+I_LPM		:	54.5 uA
+
+Farmulae: (No. of Ticks * V * I) / Ticks_Per_Sec
+Ticks_Per_Sec = CLOCK_SECOND = 128 ticks
+
+No. of ticks are shown in the simulation images. (in current directory)
+
+I have collected thes results from Mote-4: energies are representated by E_(Name) in the screenshots.
+
+RDC			Transmit Energy(J)	Listen Energy(J)	CPU Energy(J)		LPM Energy(J)
+nullrdc 		0.013			20.388			0.089			0.048
+xmac			0.027			1.122			0.108			0.047
+lpp			0.104			1.360			0.178			0.045
+xmac			0.020			1.649			0.283			0.042
+contikimac		0.099			0.321			0.138			0.046
+
+Comments: Nullrdc consumes highest energy while contikiMac consumes least with configuration of 8Hz channel rate.
+
+

@@ -1,0 +1,5 @@
+Observation:
+
+The simulation screenshot in the current directory (task2_screenshot.jpg) shows that we have a multihop rime network of 8 motes. Our reciever mote is 1. Whenever a button event is triggered on anyone of the motes, that motes starts finding the way to transmit packet to "mote-1". Each mote forwards packet to nearest mode in order to reach destination. In simulation packet reaches to its destination following path 
+(mote: 8 --> 3 --> 7 --> 2 --> 4 --> 1). 
+

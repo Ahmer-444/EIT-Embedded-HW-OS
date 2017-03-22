@@ -1,0 +1,5 @@
+Observation:
+
+The simulation screenshots in the current directory depicts that radio makes more number of tries to tranmit/recieve the sensor's data (button) by increasing etimer values. tries : 10 power(-20) * CLOCK_SECOND < 10 power(-14) * CLOCK_SECOND < 10 power(-6) * CLOCK_SECOND
+
+
